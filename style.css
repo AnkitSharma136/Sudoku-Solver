@@ -1,79 +1,116 @@
-* {
-	box-sizing: border-box;
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: blanchedalmond;
+} 
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#logo img{
+    width: 100%;
 }
 
-.main {
-	text-align: center;
+#name{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-.table {
-	margin-left: auto;
-	margin-right: auto;
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
-tr:first-child td {
-	border-top-color: black;
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 10px auto ;
 }
 
-tr:nth-child(3n) td {
-	border-bottom-color: black;
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+
+    box-sizing: border-box;
 }
 
-td {
-	border: 1px solid lightgrey;
-	height: 40px;
-	width: 40px;
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
 }
 
-td:first-child {
-	border-left-color: black;
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #538fbe;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
 }
 
-td:nth-child(3n) {
-	border-right-color: black;
+.box1{
+    background-color: #1520A6;
+    border: 2px solid  white;
 }
 
-.input {
-	padding: 0;
-	text-align: center;
-	border: 0;
-	height: 40px;
-	width: 40px;
-	text-align: center;
-	font-weight: bold;
+.box1:hover{
+    background-color: #48aaaD;
+    color: black;
 }
 
-.input:hover {
-	background: #ffffff;
+.box2{
+    background-color: #BC5448;
+    border: 2px solid  white;
+}
+.box2:hover{
+    background-color: red;
 }
 
-.input-solved {
-	/* font-weight: normal; */
-	color: red;
+.box3{
+    background-color: #028a0f;
+    border: 2px solid  white;
+}
+.box3:hover{
+    background-color: #3Ded97;
+    color: black
 }
 
-.solve {
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 10px;
-	cursor: pointer;
+.bl{
+    border-left: 4px solid black;
 }
 
-.reset {
-	background-color: rgba(235, 88, 88, 0.805);
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 10px;
-	cursor: pointer;
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
 }
