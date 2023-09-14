@@ -73,29 +73,30 @@
 }
 
 .box1{
-    background-color: #1520A6;
+    background-color:rgb(241, 141, 18);
     border: 2px solid  white;
 }
 
 .box1:hover{
-    background-color: #48aaaD;
+    background-color: blanchedalmond;
     color: black;
 }
 
 .box2{
-    background-color: #BC5448;
+    background-color: rgb(238, 139, 19);
     border: 2px solid  white;
 }
 .box2:hover{
-    background-color: red;
+    background-color:blanchedalmond;
+	color: black;
 }
 
 .box3{
-    background-color: #028a0f;
+    background-color: rgb(240, 136, 10);
     border: 2px solid  white;
 }
 .box3:hover{
-    background-color: #3Ded97;
+    background-color:blanchedalmond;
     color: black
 }
 
