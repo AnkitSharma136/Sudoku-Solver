@@ -1,2 +1,2 @@
-Visit the app here:
+Visit:
 https://ankitsharma136.github.io/Sudoku-Solver/
